@@ -1,0 +1,102 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    Object {
+      "flex": 1,
+      "marginTop": 10,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "justifyContent": "center",
+        "marginHorizontal": 16,
+        "marginVertical": 8,
+        "padding": 20,
+        "textAlign": "center",
+      }
+    }
+  >
+    <Text>
+      1
+       résultats
+    </Text>
+    <Text>
+      From 
+    </Text>
+  </View>
+  <RCTScrollView
+    data={
+      Array [
+        Object {
+          "fields": Object {
+            "nbbike": 10,
+            "nbebike": 4,
+            "station_code": 11111,
+            "station_name": "Test Snapshot",
+            "station_state": "Operative",
+          },
+        },
+      ]
+    }
+    disableVirtualization={false}
+    getItem={[Function]}
+    getItemCount={[Function]}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onContentSizeChange={[Function]}
+    onEndReachedThreshold={2}
+    onLayout={[Function]}
+    onMomentumScrollEnd={[Function]}
+    onScroll={[Function]}
+    onScrollBeginDrag={[Function]}
+    onScrollEndDrag={[Function]}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    stickyHeaderIndices={Array []}
+    updateCellsBatchingPeriod={50}
+    viewabilityConfigCallbackPairs={Array []}
+    windowSize={21}
+  >
+    <View>
+      <View
+        onLayout={[Function]}
+        style={null}
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#bcffac",
+              "marginHorizontal": 16,
+              "marginVertical": 8,
+              "padding": 20,
+            }
+          }
+        >
+          <Text>
+            Test Snapshot
+          </Text>
+          <Text>
+            Operative
+          </Text>
+          <Text>
+            Vélo disponible : 
+            10
+          </Text>
+          <Text>
+            Vélo électrique disponible : 
+            4
+          </Text>
+        </View>
+      </View>
+    </View>
+  </RCTScrollView>
+</View>
+`;
